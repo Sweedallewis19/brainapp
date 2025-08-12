@@ -1,7 +1,7 @@
 
 import mongoose, {model, Schema} from "mongoose";
 
-mongoose.connect("mongodb+srv://sweedallewis19:Wissun19@cluster0.stgds.mongodb.net/mybrain")
+mongoose.connect("")
 
 const UserSchema = new Schema({
     username: {type: String, unique: true},
